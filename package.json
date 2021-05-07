@@ -1,0 +1,17 @@
+{
+  "name": "montaro",
+  "version": "1.0.0",
+  "description": "anti-depression discord bot",
+  "main": "main.js",
+  "dependencies": {
+    "dotenv": "^9.0.0",
+    "discord.js": "^12.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node main.js",
+    "devStart": "nodemon main.js"
+  },
+  "author": "Davis Liu",
+  "license": "ISC"
+}
