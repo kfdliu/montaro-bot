@@ -51,7 +51,7 @@ function getDog() {
             .setColor('#0099ff')
             .addFields(
                 { name: 'montaro says...', value: 'I see you are a bit depressed... Here is a dog and an inspirational quote to lower your depression :)' },
-                { name: 'Total Suicides Prevented', value: count, inline: true },
+                { name: 'Total amount of depression reduced ', value: count, inline: true },
             )
 
         msg.channel.send(exampleEmbed);
